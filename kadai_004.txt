@@ -1,0 +1,17 @@
+PS C:\Users\shado> cd C:\Users\shado\OneDrive\デスクトップ\git_kadai
+PS C:\Users\shado\OneDrive\デスクトップ\git_kadai> mkdir git_tutorial
+PS C:\Users\shado\OneDrive\デスクトップ\git_kadai> git init
+Initialized empty Git repository in C:/Users/shado/OneDrive/デスクトップ/git_kadai/.git/
+PS C:\Users\shado\OneDrive\デスクトップ\git_kadai> echo "Hello, world!" >>hello_world.txt
+PS C:\Users\shado\OneDrive\デスクトップ\git_kadai> git add hello_world.txt
+[main (root-commit) 7287b44] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\shado\OneDrive\デスクトップ\git_kadai> git add hello_world.txt
+PS C:\Users\shado\OneDrive\デスクトップ\git_kadai> git commit -m "日本語訳を追加"
+[main 6e9f210] 日本語訳を追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\shado\OneDrive\デスクトップ\git_kadai> git log --oneline
+6e9f210 (HEAD -> main) 日本語訳を追加
+7287b44 hello_world.txtを追加
+PS C:\Users\shado\OneDrive\デスクトップ\git_kadai>
